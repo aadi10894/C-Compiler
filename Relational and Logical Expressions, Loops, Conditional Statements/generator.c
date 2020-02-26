@@ -287,3 +287,4 @@ void generate_code(FILE * dest_fp,  node_s *tree){
     	fprintf(dest_fp, "%d %d\n", instruction.opcode, instruction.operand);
     }
 }
+
